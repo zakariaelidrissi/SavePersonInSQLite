@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_5"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/main_fname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:hint="Enter your first name"
+        android:textColor="@color/black"
+        android:background="@color/color_6"
+        android:padding="2dp" />
+
+    <EditText
+        android:id="@+id/main_lname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:hint="Enter your last name"
+        android:textColor="@color/black"
+        android:background="@color/color_6"
+        android:padding="2dp" />
+
+    <Button
+        android:id="@+id/main_button_save"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color_3"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/main_button_display"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/color_3"
+        android:text="Display Data" />
+
+</LinearLayout>
